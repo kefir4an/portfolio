@@ -86,23 +86,41 @@ body {
 }
 
 @media (max-width: 320px) {
-	.header {
-		max-width: 90%;
-		display: block;
-	}
 
-	.avatar {
-		max-width: 100%;
-		text-align: center;
+	.header {
+		width: 100%;
+		left: 0;
+		margin: auto;
 	}
 
 	.name {
+		width: 94%;
+		margin-left: 0px;
 		text-align: center;
-		display: block;
+	}
+
+	.avatar {
+		width: 94%;
+		text-align: center;
 	}
 
 	.mywork {
-		max-width: 90%;
 		display: block;
+		text-align: center;
+	}
+
+	.mywork-title,
+	.images-work {
+		display: block;
+		text-align: center;
+		width: 95%;
+	}
+
+	.soc {
+		text-align: center;
+	}
+
+	.soc-link {
+		margin: 0px;
 	}
 }
