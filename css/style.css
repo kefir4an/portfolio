@@ -1,0 +1,108 @@
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.header {
+	width: 500px;
+	max-width: 100%;
+	display: flex;
+	margin: auto;
+	padding-top: 15px;
+}
+
+.name {
+	padding-top: 20px;
+	margin-left: 30px;
+}
+
+.spec {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.name-title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 10px;
+}
+
+.soc {
+	margin-top: 30px;
+}
+
+.soc-link {
+	margin-right: 10px;
+}
+
+.mywork-title {
+	margin-top: 100px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 10px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.mywork {
+	margin-top: 50px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.images-work {
+	padding: 10px;
+}
+
+@media (max-width: 510px) {
+	.header {
+		max-width: 90%;
+		display: block;
+	}
+	.mywork-title {
+		margin-top: 50px;
+	}
+
+	.avatar {
+		text-align: center;
+	}
+
+	.name {
+		text-align: center;
+		display: block;
+	}
+}
+
+@media (max-width: 320px) {
+	.header {
+		max-width: 90%;
+		display: block;
+	}
+
+	.avatar {
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.name {
+		text-align: center;
+		display: block;
+	}
+
+	.mywork {
+		max-width: 90%;
+		display: block;
+	}
+}
